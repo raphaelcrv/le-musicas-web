@@ -1,1 +1,18 @@
-<h1>{{ $ctrl.hello }}</h1>
+<!--<h1>{{ $ctrl.hello }}</h1>-->
+<header>
+	<div class="wrapper">
+		<h1 class="text-center title-home">LeMusicas</h1>
+		<div>
+			<div class="col center-input">	
+			<input ng-change="search()" ng-model="searchValue"  ng-model-options='{ debounce: 1000 }' placeholder="busque a letra da sua musica"></input>
+			<button ng-click="getLyrics()" class="button">Buscar Letra</button>
+		</div>
+	</div>
+</header>
+<section>
+	<img class="center-image" ng-show="loading" src="/img/loading.gif">
+	 <p ng-bind-html-unsafe='teste.texto' />
+	 <p ng-bind-html="teste" />
+</section>
+
+ 
