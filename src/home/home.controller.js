@@ -29,24 +29,6 @@ angular
         // });
       }
 
-      // todo - criar service para request
-      //todo - criar constante api url
-      //todo - mover codigo abaixo para a view lyrics
-      // https://api.vagalume.com.br/search.php?art=U2&mus=one&apikey={key}
-      // $scope.lyrics = '';
-      // $scope.getLyrics = function(){
-      //   console.log('lycris')
-      //   $http.get("https://api.vagalume.com.br/search.php?art=Twenty One Pilots&mus=Stressed Out&apikey={c9b424edc82806e396757c5c65958d51}")
-      //   .then(function(response) {          
-      //     $scope.lyrics = response.data.mus[0].text;
-      //     console.log($scope.lyrics);
-
-      //     $scope.teste = $scope.lyrics.replace(/(\r\n|\n|\r)/gm, " <br/>")
-      //     console.log($scope.teste)
-      //   });
-
-      // }
-
 
     }
   });
