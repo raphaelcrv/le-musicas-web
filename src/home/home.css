@@ -19,11 +19,15 @@ header{
 	height: 390px;
 }
 
-header h1{
+header h1, h3{
 	color: #fff;
-	padding: 40px 0 0;
-	font-size: 7em;
 	font-weight: 700;
+	text-align: center;
+}
+
+header h1{
+	padding: 40px 0 0;
+	font-size: 6em;
 }
 
 header input{
@@ -37,7 +41,7 @@ header input{
 	border-bottom: 2px solid white;
 	color: #fff;
 	font-size: 40px;
-	text-align: center;
+	text-align: left;
 }
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
