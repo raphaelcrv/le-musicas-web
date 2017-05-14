@@ -31,4 +31,15 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
       component: 'search'
     })
 
+    // state lyrics
+    $stateProvider
+    .state('home.lyrics', {
+      url: '/lyrics',
+      params: {
+        title: null,
+        band: null
+      },
+      component: 'lyrics'
+    })
+
 }
