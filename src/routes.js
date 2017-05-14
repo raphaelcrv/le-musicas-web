@@ -21,4 +21,14 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
       component: 'popular'
     })
 
+    // state search
+    $stateProvider
+    .state('home.search', {
+      url: '/search',
+      params: {
+        search: null
+      },
+      component: 'search'
+    })
+
 }
