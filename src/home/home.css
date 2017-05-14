@@ -30,17 +30,21 @@ header h1{
 	font-size: 6em;
 }
 
+header h3{
+	font-size: 2.5em;
+}
+
 header input{
-	width: 600px;
-	margin: 0 auto;
+	width: 600px !important;
+	margin: 0 auto !important;
 	display: table;
 	/*display: block;*/
-	margin-top: 50px;
+	margin-top: 50px !important;
 	background: none;
-	border: none;
-	border-bottom: 2px solid white;
+	border: none !important;
+	border-bottom: 2px solid white !important;
 	color: #fff;
-	font-size: 40px;
+	font-size: 40px !important;
 	text-align: left;
 }
 
@@ -89,20 +93,27 @@ header input:focus{
 
 
 .button {
-    background-color: #24a4ed; /* Green */
-    border: 1px solid #fff;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-		margin: 24px -80px; 
-    position:relative;
-    top:50%; 
-    left:50%;
+	background-color: #24a4ed; /* Green */
+	border: 1px solid #fff;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 24px -80px; 
+	position:relative;
+	top:50%; 
+	left:50%;
 }
 
+section{
+	margin-top: 20px;
+}
+
+section h2{
+	margin-bottom: 10px;
+}
 
 /*media*/
 
@@ -110,23 +121,30 @@ header input:focus{
 @media screen and (max-width: 720px) {
 
 	header{
-		height: 240px;
+		height: 260px;
 	}
 
 	header h1{
 		font-size: 3em;
 	}
 
+	header h3{
+	font-size: 1em;
+	}
+
 	header input{
-		font-size: 20px;
-		width: 270px;
-		margin-top: 27px;
+		width: 600px !important;
+		margin: 0 auto !important;
+		font-size: 20px !important;
+		width: 270px !important;
+		margin-top: 18px !important;
+		
 	}
 
 	.button{
-    padding: 8px 32px;
+    padding: 8px 32px !important;
     /* font-size: 14px; */
-    margin: 21px -80px;
+    margin: 21px -80px !important;
 	}
 
 	.center-image{
