@@ -18,6 +18,10 @@ angular
         $state.go('home.popular');
       }
 
+      $scope.showLyrics = function (title, band){
+         $state.go('home.lyrics', {title: title, band : band});
+      }
+
 
     }
 });

@@ -7,7 +7,8 @@
 			<div class="col s12">
 					<img class="center-image" ng-show="loading" src="/img/loading.gif">
 					<div ng-repeat="result in results">
-						<div class="card-panel grey lighten-5 z-depth-1">
+						<!--card-->
+						<div ng-click="showLyrics(result.title, result.band)" class="card-panel grey lighten-5 z-depth-1">
 							<div class="row valign-wrapper">
 								<div class="col s2">
 									<img src="../img/music.png" alt="" class="responsive-img" width="90"> <!-- notice the "circle" class -->
