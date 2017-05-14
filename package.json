@@ -72,6 +72,7 @@
   },
   "dependencies": {
     "gulp-install": "^1.1.0",
+    "materialize-css": "^0.98.2",
     "zone.js": "^0.8.5"
   }
 }
