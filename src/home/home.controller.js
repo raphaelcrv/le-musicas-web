@@ -5,12 +5,12 @@ angular
     controller: function ($scope, $http, $state, $mdToast) {
       this.hello = 'Hello World! Hme!';
       //console.log('loaded');
-      $scope.searchValue = '';
+      //$scope.searchValue = '';
 
       // todo - criar service para request
       $scope.goSearch = function(){
         console.log($scope.searchValue);
-        if($scope.searchValue != ''){
+        if($scope.searchValue != undefined){
           $state.go('home.search', {search:  $scope.searchValue});
         }else{
           $mdToast.show(
@@ -20,13 +20,6 @@ angular
               .hideDelay(3000)
           );
         }
-        // $scope.loading = true;
-        // $http.get("https://api.vagalume.com.br/search.excerpt?q="+$scope.searchValue+"&limit=10")
-        // .then(function(response) {          
-        //     // todo - tratar os erros 
-        //     $scope.result = response.data.response.docs;
-        //     $scope.loading = false;
-        // });
       }
 
 
