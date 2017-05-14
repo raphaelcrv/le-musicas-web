@@ -3,6 +3,6 @@ angular
   .component('search', {
     templateUrl: 'home/search/search.html',
     controller: function () {
-        this.hello = 'Hello World! Hme!';
+			this.hello = 'Hello World! Hme!';
     }
 });
