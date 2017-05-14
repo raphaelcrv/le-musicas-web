@@ -14,4 +14,11 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
       url: '/home',
       component: 'home'
     })
+
+    $stateProvider
+    .state('home.popular', {
+      url: '/popular',
+      component: 'popular'
+    })
+
 }
