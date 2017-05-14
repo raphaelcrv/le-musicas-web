@@ -6,6 +6,11 @@ body{
 	font-family: 'Lato', sans-serif;
 }
 
+section{
+	background: #E5EFF1;
+}
+
+
 *{
 	margin: 0;
 }
@@ -113,6 +118,16 @@ section{
 
 section h2{
 	margin-bottom: 10px;
+}
+
+.card-panel{
+	opacity: 0.9;
+	border: 1px solid #fff
+}
+
+.card-panel:hover{
+	opacity: 1;
+	border: 1px solid #24a4ed;
 }
 
 /*media*/
