@@ -6,19 +6,13 @@ angular
 function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
   $locationProvider.html5Mode(true).hashPrefix('!');
   //todo - create a 404 page and add to otherwise
-  $urlRouterProvider.otherwise('/home/popular');
+  $urlRouterProvider.otherwise('/home');
   
   // home page
   $stateProvider
     .state('home', {
       url: '/home',
       component: 'home'
-    })
-
-    $stateProvider
-    .state('home.popular', {
-      url: '/popular',
-      component: 'popular'
     })
 
     // state search
