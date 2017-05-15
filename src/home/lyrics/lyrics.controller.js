@@ -4,6 +4,8 @@ angular
 		templateUrl: 'home/lyrics/lyrics.html',
     controller: function ($http, $stateParams, $scope, $state) {
       this.hello = 'Hello World! lyrics!';
+			// always top lyrics!
+			document.body.scrollTop = document.documentElement.scrollTop = 0;
 
 			if($stateParams.title != null && $stateParams.band != null ){
 				// creating obj music
