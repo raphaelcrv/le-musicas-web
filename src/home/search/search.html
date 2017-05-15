@@ -1,11 +1,13 @@
-<div class="wrapper">
-	<section class="Populares">
+<section class="Populares">
+	<div class="wrapper">
 		<div class="row">
 			<div class="col s12">
-				<h2>Resultados</h2>
-			</div>
+				<h2 ng-show="isEmpty == false && loading == false">Musicas:</h2>
+				<h2 ng-show="isEmpty == true" class="text-center">Não encontramos a musica informada, verifique o nome e tente novamente </h2>
+ 			</div>
 			<div class="col s12">
-					<img class="center-image" ng-show="loading" src="/img/loading.gif">
+				<img class="center-image" ng-show="loading" src="/img/loading.gif">
+				<div ng-show="isEmpty != true">
 					<div ng-repeat="result in results">
 						<!--card-->
 						<div ng-click="showLyrics(result.title, result.band)" class="card-panel grey lighten-5 z-depth-1">
@@ -22,7 +24,8 @@
 							</div>
 						</div>
 					</div>
+				</div>
 			</div>
 		</div>
-	</section>
-</div>
+	</div>
+</section>
