@@ -1,17 +1,5 @@
 # le-musicas
 Find lyric of your favorite music is a open source project with angular js
-
-Acesse o site: www.lemusicas.com.br
-
-
-Todos
-- Organizar Readme
-- Otimizar estrutura do projeto 
-- Adicionar instruções para colaboradores
-- adicionar code covarege
-
-# BlendBox - Online Movies<br/>
-Find lyric of your favorite music is a open source project with angular js
 TEMP DEMO: www.lemusicas.com.br
 
 <h2>Contributing</h2>
@@ -27,3 +15,10 @@ See also the list of [contributors](https://github.com/raphaelcrv/vagrant-php-my
 
 You must give appropriate credit, provide a link to this repo
 Improve readme
+
+
+Todos
+- Organizar Readme
+- Otimizar estrutura do projeto 
+- Adicionar instruções para colaboradores
+- adicionar code covarege
