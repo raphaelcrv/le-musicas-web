@@ -10,12 +10,17 @@ Please send a pull request and i'll review and aprove, togheter we are strong!
 
 * **Raphael Souza** - *Initial work* - [raphaelcrv repo](https://github.com/raphaelcrv)
 
-See also the list of [contributors](https://github.com/raphaelcrv/vagrant-php-mysql-box/edit/Readme-Update/CONTRIBUTING.md) who participated in this project.
+See also the list of [contributors](https://github.com/raphaelcrv/le-musicas/blob/master/contribuited) who participated in this project.
 
 ## License
 
 You must give appropriate credit, provide a link to this repo
 Improve readme
+
+how i can  the Run project? 
+1. npm install
+2. bower install
+3. gulp serve
 
 
 Todos
