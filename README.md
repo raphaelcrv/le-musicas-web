@@ -19,6 +19,9 @@ You must give appropriate credit, provide a link to this repo
 
 # how i can  the Run project? 
 
+1. install the bower dependencies <code> bower install </code> <br>
+2. after done install node dependencies <code> npm install </code>
+
 for generate the distribuition version use the commnad gulp build
 Use NPM scripts
 <li>
