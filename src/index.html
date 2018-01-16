@@ -46,7 +46,15 @@
   <!-- run `gulp inject` to automatically populate bower script dependencies -->
   <!-- endbower -->
   <!-- endbuild -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112526730-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
+    gtag('config', 'UA-112526730-1');
+  </script>
   <!-- build:js({.tmp,src}) scripts/app.js -->
   <!-- inject:js -->
   <!-- js files will be automatically insert here -->
