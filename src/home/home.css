@@ -166,7 +166,17 @@ header input:focus{
 
 .footer{
   height: 50px;
-  margin-top: -50px;
+	margin-top: -50px;
+}
+
+
+.footer-info{
+	position: absolute;
+	bottom: 0px;
+}
+
+.footer-info a{
+	color: #fff;
 }
 
 /* start 'enter' transition */
