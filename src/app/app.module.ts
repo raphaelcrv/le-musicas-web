@@ -1,16 +1,27 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppComponent } from './app.component';
+import { MatIconModule } from '@angular/material/icon';
+// Angular Material
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatCardModule, MatGridListModule } from '@angular/material';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+// PageComponents
+import { HomeComponent } from './home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    HomeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MatIconModule,
+    BrowserAnimationsModule,
+    MatCardModule,
+    MatGridListModule,
+    MatCheckboxModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [HomeComponent]
 })
 export class AppModule { }
