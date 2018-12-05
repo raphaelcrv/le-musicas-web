@@ -1,8 +1,43 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import '~bootstrap/dist/css/bootstrap.min.css';
 
 // Global Variables Colors
-$primary:#fff;
+$white:#fff;
+$black: #262626;
+$primary-gray:#F9FAFA;
+$dark-gray:#F2F2F2;
+$primary-blue: #3D8BEA;
+$dark-blue:#2761A9;
+$primary-green:#9CC07C;
 
 body{
-  background: $primary;
+  background: $primary-gray;
 }
+
+h1, h2 {
+  font-size: 33px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p{
+  font-size: 18px;
+}
+
+h1,h2,h3,p {
+  // default style
+  color: $black;
+  margin: 0;
+  padding: 0;
+  // custom styles
+  &.bold{
+    font-weight: bold;
+  }
+  // custom colors
+  &.green{
+    color: $primary-green
+  }
+}
+
