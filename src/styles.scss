@@ -11,14 +11,23 @@ $dark-blue:#2761A9;
 $primary-green:#9CC07C;
 
 body{
-  background: $primary-gray;
+  background: $dark-gray;
 }
 
-h1, h2 {
+header {
+  background: $primary-blue;
+  padding: 10px 0 0;
+  h1 {
+    font-weight: 400;
+    font-size: 30px;
+  }
+}
+
+h1 {
   font-size: 33px;
 }
 
-h3 {
+h2 {
   font-size: 24px;
 }
 
@@ -26,14 +35,15 @@ p{
   font-size: 18px;
 }
 
-h1,h2,h3,p {
+h1,h2,p {
   // default style
-  color: $black;
+  color: $white;
   margin: 0;
   padding: 0;
+  font-weight: 400;
   // custom styles
   &.bold{
-    font-weight: bold;
+    font-weight: 500;
   }
   // custom colors
   &.green{
